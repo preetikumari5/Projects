@@ -1,6 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGeneratorEffect'
+import { MagicButton } from './ui/MagicButton'
 
 const Hero = () => {
   return (
@@ -23,8 +24,13 @@ const Hero = () => {
                words="Transforming Concepts into Seamless Experiences"
             />
             <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-              Hi, I am Preeti Kumari,a passionate developer based in India.
+              Hi, I'm Preeti Kumari,a passionate developer and learner based in India.
             </p>
+            <a href="#about">
+              <MagicButton 
+                title="Show my work"  
+              />
+            </a>
           </div>
         </div>
     </div>
